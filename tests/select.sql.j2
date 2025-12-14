@@ -1,0 +1,6 @@
+with raw_reviews as (
+    select * from {{ source('RAW', 'RAW_REVIEWS') }}
+)
+
+{# SELECT * FROM {{ref("fct_reviews")}}
+where LISTING_ID = 101001 #}

@@ -40,6 +40,6 @@ models:
     fct:
       +materialized: table
 
-  
+
 
     
